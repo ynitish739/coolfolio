@@ -55,17 +55,31 @@ export const routes = [
   },
 ];
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <RouteAnimator routes={routes} />,
-    children: routes.map(route => ({
-      index: route.path === '/',
-      path: route.path === '/' ? undefined : route.path,
-      element: route.element,
-    })),
-  },
-]);
+// const router = createBrowserRouter([
+//   {
+//     path: '/',
+//     element: <RouteAnimator routes={routes} />,
+//     children: routes.map(route => ({
+//       index: route.path === '/',
+//       path: route.path === '/' ? undefined : route.path,
+//       element: route.element,
+//     })),
+//   },
+// ]);
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <RouteAnimator routes={routes} />,
+      children: routes.map(route => ({
+        index: route.path === '/',
+        path: route.path === '/' ? undefined : route.path,
+        element: route.element,
+      })),
+    },
+  ],
+  { basename: '/coolfolio' }
+);
 
 function App() {
   return <RouterProvider router={router} />;
