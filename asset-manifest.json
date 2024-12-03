@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/coolfolio/static/css/main.e6471436.css",
+    "main.js": "/coolfolio/static/js/main.57c6b9d2.js",
+    "static/media/anya.png": "/coolfolio/static/media/anya.6fbc816ed1dba216c206.png",
+    "static/media/anya2.png": "/coolfolio/static/media/anya2.414ab69b52a59b7e7f89.png",
+    "static/media/wall.png": "/coolfolio/static/media/wall.c9ac5048ebcd8ebe9de9.png",
+    "static/media/background.webp": "/coolfolio/static/media/background.224732ba9c00a53bb3a1.webp",
+    "static/media/tmdb.jpg": "/coolfolio/static/media/tmdb.a877ee99a1f2bf660b8a.jpg",
+    "static/media/todo.png": "/coolfolio/static/media/todo.f2481d21a6a06c5664f7.png",
+    "static/media/leetcode.webp": "/coolfolio/static/media/leetcode.222824ac42f7f3af2398.webp",
+    "static/media/pgp.jpg": "/coolfolio/static/media/pgp.a70809a6049cad452d7b.jpg",
+    "static/media/test-image.jpg": "/coolfolio/static/media/test-image.a4f1cd7f0e34959f8bb7.jpg",
+    "static/media/github.webp": "/coolfolio/static/media/github.010a2fd15fdc36a3ffbf.webp",
+    "static/media/projectsWip.webp": "/coolfolio/static/media/projectsWip.99a3a1eb47d2274e2e5e.webp",
+    "static/media/ai.webp": "/coolfolio/static/media/ai.b64356a51d4a46dc4ee4.webp",
+    "static/media/githubIcon.svg": "/coolfolio/static/media/githubIcon.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "index.html": "/coolfolio/index.html",
+    "static/media/projectIcon.svg": "/coolfolio/static/media/projectIcon.98d74da8e19a9fb6e3cf13d27d727720.svg",
+    "main.e6471436.css.map": "/coolfolio/static/css/main.e6471436.css.map",
+    "main.57c6b9d2.js.map": "/coolfolio/static/js/main.57c6b9d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6471436.css",
+    "static/js/main.57c6b9d2.js"
+  ]
+}
