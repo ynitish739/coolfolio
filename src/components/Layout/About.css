@@ -1,0 +1,187 @@
+
+#about {
+    cursor: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px; /* Space between the sections */
+    padding: 7px;
+  }
+  
+  .about-container {
+    cursor: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+  
+  .text-section {
+    cursor: none;
+    flex: 3; /* Take up more space */
+    text-align: left;
+    padding-right: 20px; /* Add some spacing between text and image */
+  }
+  
+  .text-section h2 {
+    cursor: none;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .text-section p {
+    cursor: none;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .image-section {
+    cursor: none;
+   
+    margin: 0;
+    flex: 1.4; /* Take up less space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-image {
+    margin-top: 200px;
+    max-width: 100%;
+    height: auto;
+    border-width: 0;
+    border-radius: 3px; /* Optional: Add rounded corners */
+  }
+
+  #cursor-circle {
+    position: absolute;
+    pointer-events: none;
+    width: 250px;
+    height: 250px;
+    /* background: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 70%); */
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 50%; /* Keep the circular shape */
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 40px 30px rgba(0, 0, 0, 0.2); /* Blurred edges */
+    z-index: 0; /* Ensure it stays behind text */
+    display: none; /* Initially hidden */
+}
+
+.skills-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  /* background-color: #f9f9f9; */
+  min-height: 50vh;
+}
+
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 500px;
+  /* border-radius: 50%; */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.skills-container {
+  cursor: none;
+  flex: 2;
+  padding: 0 0px;
+}
+
+.skills-container h2 {
+  cursor: none;
+  font-size: 2rem;
+  margin-bottom: 2px;
+  color: #333;
+  border-bottom: 2px solid #ff5722;
+  display: inline-block;
+  padding-bottom: 0px;
+}
+
+.skills-container ul {
+  cursor: none;
+  list-style: none;
+  padding: 0;
+}
+
+.skills-container li {
+  cursor: none;
+  font-size: 1.2rem;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.skills-container .category {
+  cursor: none;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  color: #000;
+}
+.image-container{
+  cursor: none;
+}
+.links-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  min-height: 50vh;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+  color: #007bff; /* Blue color on hover */
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  transform: scale(1.2); /* Makes the image bigger on hover */
+}
+
+.social-links img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
